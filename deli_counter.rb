@@ -13,4 +13,9 @@ def take_a_number
    counter += 1 
 end 
 
+def now_serving 
+  currently_on_line = ["Katie", "Brock", "Stacey", "Brad", "Becky"]
+  Katie = currently_on_line.shift
+    puts "There is nobody waiting to be served!"
+end
   
