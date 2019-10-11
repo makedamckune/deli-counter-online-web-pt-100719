@@ -7,7 +7,7 @@ end
 
 def take_a_number
   currently_on_line = ["Katie", "Brock", "Stacey", "Brad"]
-  currently_on_line << "Becky", "Dawn", "Lisa"
+  currently_on_line << "Becky"
   counter = 1 
    puts "Currently on the line #{currently_on_line} with the number #{counter}"
    counter += 1 
